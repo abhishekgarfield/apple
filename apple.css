@@ -1,0 +1,216 @@
+/*page layout*/
+
+body
+{
+    padding: 0rem;
+    margin: 0rem;
+  
+    color: white;
+    width: 100%;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/*navigation bar*/
+
+header
+{
+    width: 100%;
+    position:sticky;
+}
+.nav_cont1
+{
+    width: 98%;
+    padding: 0rem 1%;
+    background-color:rgba(0,0,0,0.8)
+}
+.nav_cont2
+{
+    
+    max-width: 1047px;
+    margin: 0rem auto;
+}
+.nav_cont2 ul
+{
+    list-style-type: none;
+    display: flex;
+    padding: 0rem;
+    margin: 0rem;
+    height: 44px;
+    width: 100%;
+}
+.nav_cont2 ul li 
+{
+    display: inline-block;
+    width: auto;
+    display: block;
+}
+.nav_cont2 ul li a
+{
+    text-decoration: none;
+    color: rgba(0,0,0,-1);
+    opacity: 1;
+    display: block;
+    height: 44px;
+    padding: 0rem 1rem;
+
+}
+.logo
+{
+    background-image: url("images/nav_bar/globalnav_apple_image__b5er5ngrzxqq_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+   
+}
+.store
+{
+    background-image: url("images/nav_bar/globalnav_links_store_image__c7jy08initqq_large.svg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+.mac
+{
+    background-image: url("images/nav_bar/globalnav_links_mac_image__dazlko3t9a6a_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+    
+    
+}
+.iPad
+{
+    background-image: url("images/nav_bar/globalnav_links_ipad_image__fw9qyj9lloi2_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+.iPhone
+{
+    background-image: url("images/nav_bar/globalnav_links_iphone_image__ko7x4isga4ia_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+.watch
+{
+    background-image: url("images/nav_bar/globalnav_links_watch_image__gkoblojrlsqe_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+.airpods
+{
+    background-image: url("images/nav_bar/globalnav_links_airpods_image__f969s84ivmaa_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+.tv
+{
+    background-image: url("images/nav_bar/globalnav_links_tvhome_image__zb2ewyxbi6ae_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+
+}
+.only
+{
+    background-image: url("images/nav_bar/globalnav_links_onlyonapple_image__c4t8k97tougm_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+.accessories
+{
+    background-image: url("images/nav_bar/globalnav_links_accessories_image__edj0wqmfwxyu_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+    
+}
+.support
+{
+    background-image: url("images/nav_bar/globalnav_links_support_image__bw9kctll7u3m_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+.search
+{
+    background-image: url("images/nav_bar/globalnav_search_image__cbllq1gkias2_large.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    width: fit-content;
+    background-size: 15px 88px;
+}
+.bag
+{
+    background-image: url("images/nav_bar/globalnav_bag_image__yzte50i47ciu_large.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+
+/*cashback section*/
+
+.cashback
+{
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 1rem 0rem;
+}
+.cashback_cont
+{
+    width: fit-content;
+    margin: 0rem auto;
+}
+.cashback_cont p
+{
+    margin: 0rem;
+    font-weight: 300;
+}
+/*macbook pro section*/
+.mac_pro_book
+{
+    width: 100%;
+    background-image: url("images/hero_mbp13__f88jcbca0ve6_largetall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 43rem;
+}
+.mac_pro_title h1
+{
+    font-size:4rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    width: fit-content;
+    margin: auto;
+
+}
+.mac_pro_charge
+{
+    width: fit-content;
+    background-image: url("images/logo_hero_mbp13__gdqp6kikbxe2_largetall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 19rem;
+    margin: auto;
+}
+.mac_pro_sec
+{
+    margin: auto;
+    width: fit-content;
+    padding: 2rem 0rem;
+}
+.mac_pro_sec a
+{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #2997ff;
+}
