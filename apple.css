@@ -9,6 +9,21 @@ body
     width: 100%;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+.buy
+{
+    margin: auto;
+    width: fit-content;
+    padding: 2rem 0rem;
+
+}
+.buy a
+{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #2997ff; 
+}
 
 /*navigation bar*/
 
@@ -93,7 +108,7 @@ header
     background-repeat: no-repeat;
     width: fit-content;
 }
-.watch
+.iwatch
 {
     background-image: url("images/nav_bar/globalnav_links_watch_image__gkoblojrlsqe_large.svg");
     background-position: center center;
@@ -202,20 +217,6 @@ header
     margin: auto;
     background-size: 26rem;
 }
-.mac_pro_sec
-{
-    margin: auto;
-    width: fit-content;
-    padding: 2rem 0rem;
-}
-.mac_pro_sec a
-{
-    text-decoration: none;
-    padding: 0rem 1rem;
-    font-weight: 400;
-    font-size: 1.7rem;
-    color: #2997ff;
-}
 
 /* macbook air section*/
 
@@ -245,7 +246,7 @@ header
 {
     font-size:4rem;
     font-weight: 500;
-    padding-top: 3rem;
+    padding-top: 7rem;
     width: fit-content;
     margin: auto;
 }
@@ -269,20 +270,6 @@ header
 .mac_available p
 {
     margin: 0.5rem auto;
-}
-.mac_air_learn a
-{
-    text-decoration: none;
-    padding: 0rem 1rem;
-    font-weight: 400;
-    font-size: 1.7rem;
-    color: #2997ff;
-}
-.mac_air_learn
-{
-    width: fit-content;
-    margin: 0rem auto;
-
 }
 
 /* get airpods*/
@@ -319,12 +306,327 @@ header
     font-size: 1.7rem;
     
 }
-.get_shop a
+
+/*iphone_watch*/
+
+.iphone_watch
 {
-    text-decoration: none;
-    padding: 0rem 1rem;
-    font-weight: 400;
-    font-size: 1.7rem;
-    color: #2997ff;
+    width: 100%;
+    background-color: white;
+    color: black;
 }
+.iphone
+{
+    width: 50%;
+    background-image: url("images/promo_iphone13pro_avail__beadms4ldidu_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    float: left;
+}
+.iphone_title h1
+{
+    font-size:3rem;
+    font-weight: 500;
+    width: fit-content;
+    margin: 2rem auto 0.2rem auto; 
+    letter-spacing: -2px;
+}
+.pro
+{
+    width: fit-content;
+    margin: 0rem auto;
+    padding: 0.3rem 0rem 0rem 0rem;
+}
+.pro p
+{
+    margin: 0rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.iphone .buy 
+{
+    padding: 0.5rem 0rem;
+    
+}
+.iphone .buy a
+{
+font-size: 1.3rem;
+}
+.watch
+{
+    width: 50%;
+    background-image: url("images/promo_watch_lte__djeaso7ukrsm_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    float: left;
+}
+.watch_title
+{
+    background-image: url("images/promo_logo_watch_lte__emrof7zzkriq_large.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 11rem;
+    height: 5rem;
+    background-size: 11rem;
+    margin: 2rem auto 0rem auto;
+}
+.display
+{
+    width: fit-content;
+    margin: auto;
+}
+.display p
+{
+    margin: 0rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.watch .buy
+{
+    padding: 0.5rem 0rem;
+}
+.watch .buy a
+{
+    font-size: 1.3rem; 
+}
+
+/* air and studio section */
+
+.ipad_mac
+{
+    width: 100%;
+    height: 41.5rem;
+    clear: both;
+
+    
+}
+.ipad_cont1
+{
+    width: 47.5%;
+    float: left;
+    height: 40rem;
+    background-image: url("images/promo_ipadair_avail__ferd4bfpcdm6_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem 0.5rem 0.5rem 1rem;
+    color: white;
+
+}
+.light
+{
+    margin: auto;
+    width: fit-content;
+}
+.light p
+{
+    margin: 0.5rem auto;
+}
+.ipad_title
+{
+    background-image: url("images/promo_logo_ipadair__frwnnsqveeye_large.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    width: 11rem;
+    height: 3rem;
+    margin: 4rem auto 0rem auto;
+} 
+.studio_cont2
+{
+    width: 47.5%;
+    float: left;
+    background-image: url("images/promo_macstudio_avail__byhwkp0o4gty_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    margin: 1rem 1rem 0.5rem 1rem;
+    color: black;
+
+}
+.ipad_mac .buy
+{
+    padding: 0.5rem 0rem;
+}
+.ipad_mac .buy a
+{
+    font-size: 1.3rem; 
+}
+.studio_title
+{
+    width: fit-content;
+    margin: 4rem auto 0rem auto;
+
+}
+.empower
+{
+    width: fit-content;
+    margin:auto
+}
+.empower p
+{
+    margin: 0.5rem auto; 
+}
+.studio_title h1
+{
+
+
+    font-size:3rem;
+    font-weight: 500;
+    width: fit-content;
+    margin: 2rem auto 0.2rem auto; 
+    letter-spacing: -2px;
+
+}
+
+/* arcade and tv section */
+
+.arc_tv
+{
+    width: 100%;
+    height: 41rem;
+    clear: both;
+
+    
+}
+.arc_cont1
+{
+    width: 47.5%;
+    float: left;
+    height: 40rem;
+    background-image: url("images/tile_arcade_cooking_mama__dasht2wtew02_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
+
+}
+.cook
+{
+    margin: auto;
+    width: fit-content;
+}
+.cook p
+{
+    margin: 0.5rem auto;
+    color: black;
+}
+.arc_title
+{
+    background-image: url("images/logo__dcojfwkzna2q_large.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    width: 11rem;
+    height: 3rem;
+    margin: 4rem auto 0rem auto;
+} 
+.tv_cont2
+{
+    width: 47.5%;
+    float: left;
+    background-image: url("images/promo_physical__fyh9juzk5umy_large.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+    color:white;
+
+}
+.arc_tv .buy
+{
+    padding: 0.5rem 0rem;
+}
+.arc_tv .buy a
+{
+    font-size: 1.3rem; 
+}
+.tv_title
+{
+    width: 32rem;
+    height: 3rem;
+    background-image: url("images/logo_light__cfvl40z2nzau_large.png");
+    margin: 4rem auto 0rem auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:6rem;
+
+}
+.rose
+{
+    width: 23rem;
+    background-size: 22rem;
+    height: 8rem;
+    background-image: url("images/promo_physical_tagline__f8s8ke316uuu_large.png");
+    margin:20rem auto 0rem auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* footer */
+
+footer
+{
+    width: 100%;
+    color: black;
+    background-color:#f5f5f7;
+    overflow: hidden;
+    color:rgb(110, 110, 115);
+    clear: both;
+}
+.foot_cont1
+{
+    margin: 0rem auto;
+    max-width: 1047px; 
+    font-size: 0.8rem;
+}
+.foot_cont2
+{
+   margin: 1rem auto;
+}
+.foot_cont2 p
+{
+    margin: 0rem auto; 
+}
+.foot_cont3
+{
+    width: 100%;
+    overflow: hidden;
+}
+.foot_list1 , .foot_list2 , .foot_list3 , .foot_list4 , .foot_list5
+{
+    width: 20%;
+    float: left;
+}
+.foot_list1 ul , .foot_list2 ul , .foot_list3  ul , .foot_list4 ul  , .foot_list5 ul 
+{
+list-style-type:none;
+font-size: 1rem;
+font-weight: 200;
+padding-left: 0rem;
+color: black;
+
+
+}
+
+.foot_list1 ul li , .foot_list2 ul li  , .foot_list3  ul li  , .foot_list4 ul li  , .foot_list5 ul li 
+{
+    width: 100%;
+    padding: 0.3rem 0rem;
+}
+
+
+
+
+
+
+
 
