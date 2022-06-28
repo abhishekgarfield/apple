@@ -16,6 +16,7 @@ header
 {
     width: 100%;
     position:sticky;
+    top: 0px;
 }
 .nav_cont1
 {
@@ -196,9 +197,10 @@ header
     background-image: url("images/logo_hero_mbp13__gdqp6kikbxe2_largetall.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 3rem;
-    width: 19rem;
+    height: 5rem;
+    width: 27rem;
     margin: auto;
+    background-size: 26rem;
 }
 .mac_pro_sec
 {
@@ -211,6 +213,118 @@ header
     text-decoration: none;
     padding: 0rem 1rem;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #2997ff;
 }
+
+/* macbook air section*/
+
+.mac_air
+{
+    width: 100%;
+    background-color: white;
+    height: 45rem;
+    color: black;
+    background-size: cover;
+    background-image: url("images/hero_macbookair__el7scava26mq_largetall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mac_air_cont1
+{
+    width: 50%;
+    padding: 10% 0%;
+
+}
+.mac_air_title
+{
+    width: fit-content;
+    margin: 0rem auto;
+}
+.mac_air_title h1
+{
+    font-size:4rem;
+    font-weight: 500;
+    padding-top: 3rem;
+    width: fit-content;
+    margin: auto;
+}
+.mac_air_charge
+{
+    background-image: url("images/logo_hero_macbookair__edl9uovq56wm_largetall.png");
+    width: 18rem;
+    height: 4rem;
+    margin: 0rem auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mac_available
+{
+    color: silver;
+    font-size: 2rem;
+    font-weight: 100;
+    margin: 0rem auto;
+    width: fit-content;
+}
+.mac_available p
+{
+    margin: 0.5rem auto;
+}
+.mac_air_learn a
+{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #2997ff;
+}
+.mac_air_learn
+{
+    width: fit-content;
+    margin: 0rem auto;
+
+}
+
+/* get airpods*/
+
+.get_airpods
+{
+    width: 100%;
+    background-color: rgb(203, 37, 37);
+    height: 50rem;
+    background-image: url("images/hero_bts__bcuslanw39xe_largetall.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+.get_title ,.get_save , .get_shop
+{
+    width: fit-content;
+    margin: 0rem auto;
+    padding: 1rem 0rem 0rem 0rem;
+}
+.get_title h1
+{
+    font-size:4rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    width: fit-content;
+    margin: 0rem auto; 
+}
+.get_save p
+{
+    width: fit-content;
+    margin: 0rem auto;
+    font-size: 1.7rem;
+    
+}
+.get_shop a
+{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: #2997ff;
+}
+
