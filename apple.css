@@ -277,7 +277,6 @@ header
 .get_airpods
 {
     width: 100%;
-    background-color: rgb(203, 37, 37);
     height: 50rem;
     background-image: url("images/hero_bts__bcuslanw39xe_largetall.jpg");
     background-repeat: no-repeat;
@@ -621,6 +620,14 @@ color: black;
 {
     width: 100%;
     padding: 0.3rem 0rem;
+}
+
+
+/* phone and tab*/
+
+@media screen and  (max-width: 1000px)
+{
+    
 }
 
 
