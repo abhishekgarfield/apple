@@ -28,15 +28,15 @@
                 </div>
                 <div class="dis">
                     <ul>
-                        <li><a class="side" id="side" href="#">=</a></li>
+                        <li><a class="side" id="side" onclick="show()" href="#">=</a></li>
                         <li><a class="logo" href="#"><span class="hde">logo</span></a></li>
-                        <li><a class="bag" href="#"><span class="hde">bag</span></a></li>
+                        <li><a class="bag" id="bag" href="#"><span class="hde">bag</span></a></li>
                     </ul>
                 </div>
-                <div class="phon_nav">
+                <div class="phon_nav" id="phon_nav">
                     <div class="nav_cont3">
                         <ul>
-                            <li><a class="logo" href="#"><span class="hde">logo</span></a></li>
+                            
                             <li><a class="store" href="#"><span class="hde">Store</span></a></li>
                             <li><a class="mac" href="#"><span class="hde">Mac</span></a></li>
                             <li><a class="iPad" href="#"><span class="hde">iPad</span></a></li>
@@ -47,7 +47,7 @@
                             <li><a class="only" href="#"><span class="hde">Only on Apple</span></a></li>
                             <li><a class="accessories" href="#"><span class="hde">Accessories</span></a></li>
                             <li><a class="support" href="#"><span class="hde">Support</span></a></li>
-                            <li><a class="bag" href="#"></a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -297,5 +297,12 @@
                 </div>
              </div>
         </footer>
+        <script>
+            function show()
+            {
+                document.getElementById("phon_nav").style.display ="block";
+                document.getElementById("bag").style.display ="none";
+            }
+        </script>
     </body>
 </html>
