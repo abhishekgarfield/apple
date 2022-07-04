@@ -191,7 +191,10 @@ header
 .cashback_cont p
 {
     margin: 0rem;
+    text-align: center;
     font-weight: 300;
+    padding: 0% 11%;
+    font-size: 1.05rem;
 }
 /*macbook pro section*/
 .mac_pro_book
@@ -695,6 +698,7 @@ display: block;
         position:fixed;
         top: 2.7rem;
         left:0rem;
+        z-index: 1;
     }
    
     .nav_cont3
