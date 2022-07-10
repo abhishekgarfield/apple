@@ -204,6 +204,7 @@ header
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
+    background-size: cover;
     height: 43rem;
 }
 .mac_pro_title h1
